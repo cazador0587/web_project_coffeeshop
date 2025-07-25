@@ -1,1 +1,4 @@
+# Ignorar archivos temporales
+*.log
+*.tmp
 .DS_Store
