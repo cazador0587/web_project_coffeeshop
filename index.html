@@ -18,10 +18,55 @@
 <body>
   <div class="page">
     <header class="header">
-      Probando
+      <nav class="nav">
+          <img class="nav__logo" src="./images/logo_coffeeshop_dark.svg" alt="Logotipo de coffee Triple Peaks"/>
+          <ul class="nav__links">
+            <li>
+              <a href="#recesta" class="nav__link">Recetas</a>
+            </li>
+            <li>
+              <a href="#reserva" class="nav__link">Reservar una mesa</a>
+            </li>
+            <li>
+              <a href="#contacto" class="nav__link">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              Café de especialidad en Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Te damos la bienvenida a nuestra zona de estudio!
+              Aquí tenemos café para darte energía y motivar tu creatividad.
+            </p>
+          </div>
+          <img class="header__image" src="./images/inside_coffee_shop.png" alt="Ilustración 'Dentro de la biblioteca'"/>
+        </div>
+        <div class="header__footer">
+          <p class="header__horario">
+            Horario:<br>
+            Lunes a Viernes (de 10:00h a 19:00h)<br>
+            Sábados y Domingos (de 11:00h a 18:00h)
+          </p>
+          <p class="header__address">Avenida del Éxito 200, Ciudad Triple Peaks</p>
+        </div>
     </header>
+
     <main class="content">
-      <section class="recipes"></section>
+      <section class="recipes">
+        <iframe data-testid="embed-iframe"
+                style="border-radius:12px"
+                src="https://open.spotify.com/embed/track/0B5nnPv1ebuo0VFXCMfUij?utm_source=generator&theme=0"
+                width="100%"
+                height="352"
+                frameBorder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy">
+        </iframe>
+      </section>
       <section class="reservation"></section>
     </main>
     <footer class="footer"></footer>
