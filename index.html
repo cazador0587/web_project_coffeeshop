@@ -1,65 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Cafetria TripeTen">
-  <meta name="author" content="Fernando Salvador">
-  <meta name="keywords" content="HTML5 y CSS">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!--<link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Serif&display=swap" rel="stylesheet">-->
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./vendor/normalize.css">
-  <link rel="stylesheet" href="pages/index.css">
-  <title>Cafeteria TripleExpresso</title>
-</head>
-<body>
-  <div class="page">
-    <header class="header">
-      <nav class="nav">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cafetria TripeTen">
+    <meta name="author" content="Fernando Salvador">
+    <meta name="keywords" content="HTML5 y CSS">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Serif&display=swap" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Cafeteria TripleExpresso</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
           <img class="nav__logo" src="./images/logo_coffeeshop_dark.svg" alt="Logotipo de coffee Triple Peaks"/>
           <ul class="nav__links">
-            <li>
-              <a href="#recipes_id" class="nav__link">Recetas</a>
-            </li>
-            <li>
-              <a href="#reservation_id" class="nav__link">Reservar una mesa</a>
-            </li>
-            <li>
-              <a href="#contacto-id" class="nav__link">Contactos</a>
-            </li>
+            <li><a href="#recipes_id" class="nav__link">Recetas</a></li>
+            <li><a href="#reservation_id" class="nav__link">Reservar una mesa</a></li>
+            <li><a href="#contacto-id" class="nav__link">Contactos</a></li>
           </ul>
         </nav>
-        <div class="header__content">
-          <div>
-            <h1 class="header__title">
-              Café de especialidad <br><span class="accent">en Triple Peaks</span>
-            </h1>
-            <p class="header__description">
-              ¡Te damos la bienvenida a nuestra zona de estudio!
-              Aquí tenemos café para darte energía y motivar tu creatividad.
-            </p>
-          </div>
-          <img class="header__image" src="./images/inside_coffee_shop.png" alt="Ilustración 'de la Coffe'"/>
-        </div>
+        <h1 class="header__title">
+          <span class="header__span-accent">Café de especialidad</span> en Triple Peaks
+        </h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio!
+          Aquí tenemos café para darte energía y motivar tu creatividad.
+        </p>
+        <img class="header__image" src="./images/inside_coffee_shop.png" alt="Ilustración 'de la Coffe'"/>
         <div class="header__footer">
-          <p class="header__horario">
-            Horario:<br>
-            Lunes a Viernes (de 10:00h a 19:00h)<br>
-            Sábados y Domingos (de 11:00h a 18:00h)
-          </p>
-          <p class="header__address">Avenida del Éxito 200, Ciudad Triple Peaks</p>
+          <div class="header__horario">
+            <p class="header__paragraph">Horario:</p>
+            <p class="header__paragraph">Lunes a Viernes (de 10:00h a 19:00h)</p>
+            <p class="header__paragraph">Sábados y Domingos (de 11:00h a 18:00h)</p>
+          </div>
+          <div class="header__address">
+            <p class="header__paragraph">Avenida del Éxito 200, Ciudad Triple Peaks</p>
+          </div>
         </div>
-    </header>
+      </header>
 
-    <main class="content">
-      <section class="recipes" id="recipes_id">
+      <main class="content">
+        <section class="recipes" id="recipes_id">
           <h2 class="recipes__title">Recetas</h2>
           <p class="recipes__subtitle">
-              Echa un vistazo a las recetas que hemos reunido para que elabores tus propios snacks.
+            Echa un vistazo a las recetas que hemos reunido
+            para que elabores tus propios snacks.
           </p>
           <div class="recipes__videos">
             <div class="recipes__videos-item">
@@ -93,11 +86,10 @@
               </div>
             </div>
           </div>
-
-      </section>
-      <section class="reservation" id="reservation_id"></section>
-    </main>
-    <footer class="footer"></footer>
-  </div>
-</body>
+        </section>
+        <section class="reservation" id="reservation_id"></section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
 </html>
