@@ -18,7 +18,7 @@
   </head>
   <body>
     <div class="page">
-      <header class="header">
+      <!--<header class="header">
         <nav class="nav">
           <img class="nav__logo" src="./images/logo_coffeeshop_dark.svg" alt="Logotipo de coffee Triple Peaks"/>
           <ul class="nav__links">
@@ -86,31 +86,31 @@
               </div>
             </div>
           </div>
-        </section>
+        </section>-->
         <section class="reservation" id="reservation">
-          <h2 class="reservation__title">Reservar una mesa</h2>
-          <p class="reservation__subtitle">
-            Si quieres estudiar en un ambiente tranquilo,
-            reserva una mesa para ti y tus amigos.
-          </p>
-          <form class="reservation__form" action="#" method="post">
-            <label for="name" class="reservation__label">Nombre:</label>
-            <input type="text" id="name" name="name" class="reservation__input" required>
+          <h2 class="reservation__title" id="reservation">
+            Reserva una mesa
+          </h2>
+          <form action="" class="form reservation__form">
+            <label class="form__label" for="name">Nombre *</label>
+            <input class="form__input" type="text" id="name" name="name" placeholder="Nombre" required>
 
-            <label for="email" class="reservation__label">Correo electrónico:</label>
-            <input type="email" id="email" name="email" class="reservation__input" required>
+            <label class="form__label" for="dinner-number">Número de comensales</label>
+            <input class="form__input" type="number" id="dinner-number" name="dinner-number" placeholder="1 -8" required>
 
-            <label for="date" class="reservation__label">Fecha:</label>
-            <input type="datetime-local" id="date" name="date" class="reservation__input" required>
+            <label class="form__label" for="dtate">Fecha y Hora *</label>
+            <input class="form__input" type="datetime-local" id="dtate" name="dtate" required>
 
-            <label for="time" class="reservation__label">Hora:</label>
-            <input type="time" id="time" name="time" class="reservation__input" required>
-
-            <button type="submit" class="reservation__button">Reservar</button>
+            <label class="form__label" for="email">Tu Correo Electronico *</label>
+            <input class="form__input" type="email" id="email" name="email" placeholder="email@email.com" required>
+            <fieldset class="form__fieldset">
+              <button class="form__button" type="submit">Reserva una mesa</button>
+            </fieldset>
+            <fieldset class="form__fieldset form__fieldset_el_center">
+              <input class="form__checkbox" id="checkbox" name="checkbox" type="checkbox" required>
+              <label class="form__label form__label_direction_rigth" for="checkbox">Acepto los terminos de uso *</label>
+            </fieldset>
           </form>
-          <p class="reservation__note">
-            *Recuerda que las reservas son solo para grupos de 4 o más personas.
-          </p>
         </section>
       </main>
       <footer class="footer" id="#footer"></footer>
