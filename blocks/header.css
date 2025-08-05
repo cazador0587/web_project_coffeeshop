@@ -1,0 +1,113 @@
+.header {
+  background-image: url("../images/background_header.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+}
+.header__title {
+  flex-direction: column;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  display: flex;
+  line-height: 72px;
+  letter-spacing: -1px;
+  left: 80px;
+  max-width: 709px;
+  margin-bottom: 0;
+  position: relative;
+  /*color: #2f80ed;
+  margin: 183px 0 0;
+  padding: 0;*/
+}
+
+.header__span-accent {
+  color: #2f80ed;
+  font-family: 'Noto Serif', Times, Sans-Serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  left: 80px;
+  display: flex;
+}
+
+.header__description {
+  font-family: 'Noto Serif', Times New Roman, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  max-width: 683px;
+  margin-top: 28px;
+  margin-bottom: 0;
+  left: 80px;
+  position: relative;
+}
+
+.header__image {
+  flex-direction: column;
+  display: flex;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+  position: absolute;
+  width: 646px;
+}
+
+.header__footer {
+  color: #6f6f6f;
+  /*margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;*/
+}
+.header__horario {
+  bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  left: 80px;
+  position: absolute;
+  /*color: #838383;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;*/
+}
+
+.header__paragraph {
+  color: #838383;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  margin: 0;
+}
+
+.header__address {
+  bottom: 20px;
+  display: flex;
+  margin-top: auto;
+  right: 80px;
+  position: absolute;
+  /*color: #838383;
+  font-family: 'Inter',Arial,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;}*/
+}

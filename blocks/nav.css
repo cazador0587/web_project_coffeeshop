@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  display: flex;
+  height: 39px;
+  left: 30px;
+  margin-bottom: 183px;
+  top: 30px;
+  position: relative;
+  width: 105px;
+}
+
+.nav__links {
+  column-gap: 20px;
+  display: flex;
+  list-style-type: none;
+  margin-right: 80px;
+  margin-top: 30px;
+  /*font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 8px 0 0;
+  position: absolute;
+  padding: 0;
+  top: 30px;
+  right: 80px;*/
+}
+
+.nav__link {
+  color: #000000;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
