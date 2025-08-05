@@ -1,12 +1,6 @@
 .form {
   max-width: 385px;
 }
-
-.reservation__form {
-  margin: 0 auto 120px;
-  padding: 0 20px;
-}
-
 .form__label {
   display: block;
   margin-bottom: 8px;

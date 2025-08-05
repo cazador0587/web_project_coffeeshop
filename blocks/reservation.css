@@ -11,7 +11,10 @@
       max-height: 800px;
       position: relative;*/
 }
-
+.reservation__form {
+  margin: 0 auto 120px;
+  padding: 0 20px;
+}
 .reservation__title {
   margin: 0px auto 80px;
   padding-top: 100px;
