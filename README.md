@@ -16,4 +16,4 @@ CSS3: Para el diseño visual, uso de estilos personalizados
 
 # GitHub Pages
 
-https://cazador0587.github.io/web_project_coffeshop/
+https://cazador0587.github.io/web_project_coffeeshop/
